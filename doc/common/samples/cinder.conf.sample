@@ -2044,6 +2044,20 @@
 
 
 #
+# Options defined in cinder.volume.drivers.sheepdog
+#
+
+# IP address of sheep daemon.
+#sheepdog_store_address = 127.0.0.1
+
+# Port of sheep daemon.
+#sheepdog_store_port = 7000
+
+# Images will be chunked into objects of this size (in megabytes). 
+# For best performance, this should be a power of two.
+# sheepdog_store_chunk_size = 64
+
+#
 # Options defined in cinder.volume.drivers.smbfs
 #
 
