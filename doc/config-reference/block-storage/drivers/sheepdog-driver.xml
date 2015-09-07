@@ -16,7 +16,7 @@
 
     <section xml:id="sheepdog-supported-operations">
       <title>Supported operations</title>
-        <para>Sheepdog drivers support these operations:</para>
+        <para>Sheepdog driver supports these operations:</para>
         <itemizedlist>
         <listitem>
           <para>Create, delete, attach, and detach volumes.</para>
@@ -39,6 +39,9 @@
         <listitem>
           <para>Extend a volume.</para>
         </listitem>
+        <listitem>
+          <para>Get volume statistics.</para>
+        </listitem>
         </itemizedlist>
     </section>
 
@@ -49,7 +52,7 @@
               <filename>cinder.conf</filename>:</para>
       <programlisting>volume_driver=cinder.volume.drivers.sheepdog.SheepdogDriver</programlisting>
       <para>The following table contains the configuration options
-      supported by the Sheepdog driver.</para>
+        supported by the Sheepdog driver.</para>
       <xi:include href="../../../common/tables/cinder-sheepdog.xml"/>
     </section>
 </section>

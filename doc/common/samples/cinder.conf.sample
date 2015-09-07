@@ -2055,7 +2055,7 @@
 
 # Images will be chunked into objects of this size (in megabytes). 
 # For best performance, this should be a power of two.
-# sheepdog_store_chunk_size = 64
+#sheepdog_store_chunk_size = 64
 
 #
 # Options defined in cinder.volume.drivers.smbfs
