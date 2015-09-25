@@ -4,7 +4,7 @@
      generated and your changes will be overwritten.
      The tool to do so lives in openstack-doc-tools repository. -->
   <table rules="all" xml:id="config_table_cinder_sheepdog">
-    <caption>Description of Sheepdog configuration options</caption>
+    <caption>Description of Sheepdog driver configuration options</caption>
     <col width="50%"/>
     <col width="50%"/>
     <thead>
@@ -24,10 +24,6 @@
       <tr>
         <td><option>sheepdog_store_port</option> = <replaceable>7000</replaceable></td>
         <td>(IntOpt) Port of sheep daemon.</td>
-      </tr>
-      <tr>
-        <td><option>sheepdog_store_chunk_size</option> = <replaceable>64</replaceable></td>
-        <td>(IntOpt) Images will be chunked into objects of this size (in megabytes). For best performance, this should be a power of two.</td>
       </tr>
     </tbody>
   </table>
